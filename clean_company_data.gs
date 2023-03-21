@@ -1,4 +1,5 @@
-//clean company data : Name, CIN and ROC data.
+// clean company data : Name, CIN and ROC data.
+// raw company name in first column
 
 function getROCForAllCompanies() {
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
