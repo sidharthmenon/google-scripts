@@ -23,7 +23,7 @@ function listSubFolders(parentFolder,parent) {
 }
 
 function listFiles(fold,parent){
-  var sh = SpreadsheetApp.openById("1_Np2BEV7WBbe0i34dNNfNtX0ddt9um-u253il-TydmM");
+  var sh = SpreadsheetApp.openById("SHEET_ID");
   var data = [];
   var files = fold.getFiles();
   while (files.hasNext()) {
